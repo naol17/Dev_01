@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+  background-color: rgb(18, 22, 44);
+  top: -10px;
+  height: 1000px;
+  padding-bottom: 2%;
+
+}
+
+.todoap{
+  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.224) , rgba(217, 0, 255, 0.364));
+  padding-top: 20px;
+  position: relative;
+   
+}
+
+ul{
+  list-style: none;
+}
+h1,h2,h3{
+  color: aliceblue;
+}
+
+.form input{
+  /* width: 10px; */
+  background-color: rgb(57, 55, 55);
+  color: aliceblue;
+  font-size: medium;
+  padding: 15px;
+  width: 31%;
+  align-items: center;
+  justify-content: center;
+  direction: none;
+  border-style: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.form button{
+  padding: 16.2px;
+  background-color:  rgb(23, 22, 22);
+  color: aliceblue;
+  border-style: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 12%;
+
+}
+.container{
+  background-color:  rgb(28, 26, 39);
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 2%;
+  border-style: none;
+  position: absolute;
+
+}
+
+.Status{
+  margin-top: 5%;
+}
+
+.btn{
+  height: fit-content;
+  padding: 16.2px;
+  background-color:  rgb(57, 55, 55);
+  color: aliceblue;
+  border-style: none;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.todolist{
+color: aliceblue;
+margin-right: 80%;
+padding-top: 5%;  
+width: 80%;
+border-bottom-width: 10px;  
+border-bottom-color: aliceblue;
+/* background-color: rgb(81, 12, 12); */
+}
+.DeleteButton{
+  color: rgb(255, 249, 249);
+  padding: 10px;
+  background-color:  rgb(101, 55, 55);
+  border-radius: solid 2px green;
+  border-style: none;
+  border-radius: 5px;
+  margin-right: 60%;
+  cursor: pointer;
+
+}
+
+.todos{
+background-color: rgb(55, 47, 47);
+margin-left: 15%;
+  padding: 8px;
+  width: 70%;
+  border: solid 5px rgb(33, 28, 28);
+}
+.ListEdits button{
+ 
+  margin-left: 90%;
+  height: 35px;
+  width: 35px;
+  border-radius:100%;
+  background: rgb(229, 19, 19);
+}
+.ListEdits button label{
+color: rgb(255, 255, 255);
+font-size: 130%;
+padding-top: -30%;
+}
+
+.todo label{
+    padding: -100px;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    margin-right: 60%;
+    width: 100%;
+    padding: 10px;
+}
+.todo input{
+  width: 15px;
+  height: 17px;
+margin-right: 5%;
+}
+
